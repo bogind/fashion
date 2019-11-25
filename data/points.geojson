@@ -1,11 +1,132 @@
 {
-"type": "FeatureCollection",
-"name": "points",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "id": 1, "type": "חנות יד שנייה", "url": null, "image": null, "phone": null, "email": null, "address": "ישראל אהרוני 32", "name": "וינטג' ויד 2", "city": "רחובות", "desc": null }, "geometry": { "type": "Point", "coordinates": [ 34.813309958851384, 31.901312503582893 ] } },
-{ "type": "Feature", "properties": { "id": 2, "type": "חנות יד שנייה", "url": null, "image": null, "phone": null, "email": null, "address": "משה מזרחי 9", "name": "יצא מהארון", "city": "רחובות", "desc": null }, "geometry": { "type": "Point", "coordinates": [ 34.812951778628978, 31.883092508136837 ] } },
-{ "type": "Feature", "properties": { "id": 3, "type": "חנות יד שנייה", "url": null, "image": null, "phone": null, "email": null, "address": "הרצל 150", "name": "מלב\"י", "city": "רחובות", "desc": null }, "geometry": { "type": "Point", "coordinates": [ 34.812339034342983, 31.8926340541319 ] } },
-{ "type": "Feature", "properties": { "id": 4, "type": "חנות יד שנייה", "url": null, "image": null, "phone": null, "email": null, "address": "הרצל 173", "name": "הפיל הלבן - גלריה ויד שנייה", "city": "רחובות", "desc": null }, "geometry": { "type": "Point", "coordinates": [ 34.810314783581681, 31.897647386124277 ] } }
-]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "type": "חנות יד שנייה",
+        "url": null,
+        "image": null,
+        "phone": null,
+        "email": null,
+        "address": "ישראל אהרוני 32",
+        "name": "וינטג' ויד 2",
+        "city": "רחובות",
+        "desc": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.813309958851384,
+          31.901312503582893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "type": "חנות יד שנייה",
+        "url": null,
+        "image": null,
+        "phone": null,
+        "email": null,
+        "address": "משה מזרחי 9",
+        "name": "יצא מהארון",
+        "city": "רחובות",
+        "desc": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.81295177862898,
+          31.883092508136837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "type": "חנות יד שנייה",
+        "url": null,
+        "image": null,
+        "phone": null,
+        "email": null,
+        "address": "הרצל 150",
+        "name": "מלב\"י",
+        "city": "רחובות",
+        "desc": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.81233903434298,
+          31.8926340541319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "type": "חנות יד שנייה",
+        "url": null,
+        "image": null,
+        "phone": null,
+        "email": null,
+        "address": "הרצל 173",
+        "name": "הפיל הלבן - גלריה ויד שנייה",
+        "city": "רחובות",
+        "desc": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.81031478358168,
+          31.897647386124277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "id": 5,
+        "type": "polygon"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.8171329498291,
+              31.893008091395693
+            ],
+            [
+              34.81936454772949,
+              31.888416955335117
+            ],
+            [
+              34.82738971710205,
+              31.888307639781804
+            ],
+            [
+              34.82391357421875,
+              31.89501208695374
+            ],
+            [
+              34.8171329498291,
+              31.893008091395693
+            ]
+          ]
+        ]
+      }
+    }
+  ]
 }
