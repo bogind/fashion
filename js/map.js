@@ -94,13 +94,7 @@ fetch("data/points.geojson")
 
 	L.control.layers(basemaps, shops).addTo(map);
 	}
-})
-
-$.when(points_data).done(function(){
-
-	
-);
-
+)
 
 
 
