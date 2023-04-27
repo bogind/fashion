@@ -61,14 +61,6 @@ var shopIcon = L.Icon.extend({
 
 var SecondHandIcon = new shopIcon({iconUrl: 'images/SecondHand.png'})
 
-var points_data = $.ajax({
-	url: "data/points.geojson",
-	dataType: "json",
-	success: console.log("data successfully loaded."),
-	error: function(xhr) {
-		alert(xhr.statusText)
-	}
-})
 
 var geojsonMarkerOptions = {
 	radius: 4,
@@ -77,9 +69,10 @@ var geojsonMarkerOptions = {
 	fillOpacity: 0.5
 };
 
-$.when(points_data).done(function(){
-
-	shops = L.geoJSON(points_data.responseJSON, {
+fetch("data/points.geojson")
+.then(res => res.json())
+.then(points_data => {
+	shops = L.geoJSON(points_data, {
 		pointToLayer: function (feature, latlng) {
 			return L.marker(latlng,{icon: SecondHandIcon});
 		},
@@ -101,6 +94,11 @@ $.when(points_data).done(function(){
 
 	L.control.layers(basemaps, shops).addTo(map);
 	}
+})
+
+$.when(points_data).done(function(){
+
+	
 );
 
 
